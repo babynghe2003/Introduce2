@@ -1,7 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font: 20px Montserrat, sans-serif, bold;
-  line-height: 1.8;
+  line-height: 3;
   color: #f5f6f7;
+  position: relative;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 13px;
+	background-color: rgba(41, 41, 41, 0.014);
+}
+
+::-webkit-scrollbar
+{
+	width: 13px;
+	background-color: rgb(46, 46, 46);
+}
+
+::-webkit-scrollbar-thumb {
+  border: #2f2f2f;
+  border-radius: 4px;
+  background: linear-gradient(#FED524,#F95A57);
 }
 p {
   font-size: 16px;
@@ -10,8 +35,16 @@ p {
   margin-bottom: 60px;
 }
 .bg-1 {
-  background-color: #f58b00; /* Green */
+  height: unset;
+  height: 100vh+100px;
+  background-color: #f57600; /* Green */
   color: #ffffff;
+}
+.bg-1 img{
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+  object-fit: cover;
 }
 .bg-2 {
   background-color: #474e5d; /* Dark Blue */
@@ -22,14 +55,21 @@ p {
   color: #555555;
 }
 .bg-4 {
+
+  height: unset;
   background-color: #2f2f2f; /* Black Gray */
   color: #fff;
 }
 .container-fluid {
+  width: 100%;
+  height: 100vh-50px;
   padding-top: 70px;
   padding-bottom: 70px;
 }
 .navbar {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
   padding-top: 15px;
   padding-bottom: 15px;
   border: 0;
@@ -37,13 +77,18 @@ p {
   margin-bottom: 0;
   font-size: 12px;
   letter-spacing: 5px;
+  justify-content: space-between;
+ 
 }
-.navbar-nav li a:hover {
+.navbar-right{
+  display: flex;
+  flex-direction:row;
+  }
+.navbar-nav  li a:hover {
   color: #1abc9c !important;
 }
 .product {
   color: #f5f6f7;
-  border: #f58b00;
   font-size: larger;
   background-color: #8080809d;
   height: 100px;
@@ -52,4 +97,33 @@ p {
 .product:hover {
   color: black;
   background-color: #555555;
+}
+.main-logo{
+  width: 15%;
+  height: 15%;
+  object-fit: cover;
+}
+.images{
+ width: 100%;
+}
+.images img{
+  border-radius: 40px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+.imge:hover{
+  transition: 0.3s;
+  transform: translateY(-4px);
+}
+.gallery{
+  width: 60%;
+  height: 60%;
+  margin: auto;
+}
+.gallery img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
