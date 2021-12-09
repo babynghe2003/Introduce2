@@ -34,7 +34,8 @@ p {
   font-size: 19px;
 }
 .margin {
-  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 .bg-1 {
   height: unset;
