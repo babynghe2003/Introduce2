@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x:hidden;
 }
 
 body {
@@ -61,8 +62,6 @@ p {
   color: #fff;
 }
 .container-fluid {
-  width: 100%;
-  height: 100vh-50px;
   padding-top: 70px;
   padding-bottom: 70px;
 }
