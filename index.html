@@ -14,6 +14,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">    
+        <script src="https://kit.fontawesome.com/06b4dc4e25.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -22,22 +27,22 @@
         <div class="navbar-header">
             <img class="main-logo navbar-left" src="images/mylogo2.png" />
             <ul class="nav navbar-nav navbar-right">
-                <li style="font-size: large;"><a href="#INFOMATION">INFROMATION</a></li>
-                <li style="font-size: large;"><a href="#PRODUCT">PRODUCT</a></li>
-                <li style="font-size: large;"><a href="#GALLERY">GALLERY</a></li>
+                <li><a href="#INFOMATION">INFROMATION</a></li>
+                <li><a href="#PRODUCT">PRODUCT</a></li>
+                <li><a href="#GALLERY">GALLERY</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- First Container -->
-    <div style="width: 100%; height: 100vh;" id="INFOMATION" class="container-fluid bg-1 text-center">
-        <img src="images/avt3.jpg" class="img-circle" style="position: relative" />
+    <div style="width: 100%;" id="INFOMATION" class="container-fluid bg-1 text-center">
+        <img src="images/avt3.jpg" class="img-circle" />
         <h2 class="margin">Hồ Minh Phi-Felix Hồ</h2>
     </div>
 
     <!-- Second Container -->
-    <div style="width: 100%; height: 100vh;" id="PRODUCT" class="container-fluid bg-2 text-center">
-        <h3>Game</h3>
+    <div style="width: 100%;" id="PRODUCT" class="container-fluid bg-2 text-center">
+        <h3>GAME</h3>
         <div class="container-fluid">
             <div class="row images">
                 <div class="col-12 col-sm-6 col-md-4 imge">
@@ -62,8 +67,8 @@
         </div>
     </div>
 
-    <div style="width: 100%; height: 100vh-50px;" id="GALLERY" class="container-fluid bg-3 text-center">
-        <h3 style="margin: 50px;">GALLERY</h3>
+    <div style="width: 100%;" id="GALLERY" class="container-fluid bg-3 text-center">
+        <h3>GALLERY</h3>
         <div id="carouselExampleIndicators" class="carousel slide gallery" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -94,6 +99,10 @@
     <!-- Footer -->
     <footer style="width: 100%;" class="container-fluid bg-4 text-center">
         <p>Made By Ho Minh Phi</p>
+        <h2 class="word">Contact:</h2>
+            <button class="btn btn-" onclick="location.href='https://www.facebook.com/phi.ksthominh'"><i class="fab fa-facebook"></i>  Facebook</button><br>
+            <button class="btn btn-" onclick="location.href='https://twitter.com/HMinhPhi1'"><i class="fab fa-twitter"></i>  Twitter</button><br>
+            <button class="btn btn-" onclick="location.href='https://www.instagram.com/minhphi2602/'"><i class="fab fa-instagram-square"></i>  Instagram</button><br>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
