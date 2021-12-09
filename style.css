@@ -51,8 +51,9 @@ p {
   border-radius: 200px;
 }
 .bg-1 img:hover{
-  width: 40%;
-  height: 40%;
+  width: 80vh;
+  height: 100vh;
+  border-radius: 20px;
   object-fit: cover;
   border: 7px solid #ffffff;
   transition: 0.4s;
